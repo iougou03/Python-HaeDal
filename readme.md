@@ -9,7 +9,7 @@
 
   1. <b>Visual Studio</b> 
 
-    ![logo](https://surpreem.com/wp/wp-content/uploads/2019/06/visual_studio_2019_icon.png)
+    ![logo](https://surpreem.com/wp/wp-content/uploads/2019/06/visual_studio_2019_icon.png){: width="100" height="100"}
     
     It is good for C/C++/C# ... - languages that related to MS(MicroSoft) 
 
