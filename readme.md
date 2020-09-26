@@ -9,13 +9,13 @@
 
   1. <b>Visual Studio</b> 
 
-    ![logo](https://surpreem.com/wp/wp-content/uploads/2019/06/visual_studio_2019_icon.png)
+    <img src="https://surpreem.com/wp/wp-content/uploads/2019/06/visual_studio_2019_icon.png" width=200px>
     
     It is good for C/C++/C# ... - languages that related to MS(MicroSoft) 
 
   2. Pycharm 
 
-    ![logo2](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/PyCharm_Logo.svg/1024px-PyCharm_Logo.svg.png)
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/PyCharm_Logo.svg/1024px-PyCharm_Logo.svg.png" width=150px>
 
     Very useful software if you want to work with Python
 
@@ -33,25 +33,32 @@
 ### Editor
 
 <ol>
-    1. Visual Studio Code (VS code)
-       
-![logo5](https://user-images.githubusercontent.com/674621/71187801-14e60a80-2280-11ea-94c9-e56576f76baf.png)
+  <li>Visual Studio Code (VS code)
+       <br>
 
-    2. Vim
+  <img src = "https://user-images.githubusercontent.com/674621/71187801-14e60a80-2280-11ea-94c9-e56576f76baf.png" width=150px>
+  </li>
 
-![logo6](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/1200px-Vimlogo.svg.png)
+ <li>Vim
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/1200px-Vimlogo.svg.png" width=180px>
+</li>
+
 </ol>
 
 
-<hr>
+<hr >
 
 \<Information\>
-
-<b>name</b> : Haesol-Kwon
-
-<b>e-mail</b> : haesol820@naver.com
-
-<b>Development Enviornment</b> : VS code -with WSL2
+  <li>
+    <b>name</b> : Haesol-Kwon
+  </li>
+  <li>
+    <b>e-mail</b> : haesol820@naver.com
+  </li>
+  <li>
+    <b>Development Enviornment</b> : VS code -with WSL2
+  </li>
 
 
 
