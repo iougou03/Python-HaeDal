@@ -39,8 +39,9 @@
   <img src = "https://user-images.githubusercontent.com/674621/71187801-14e60a80-2280-11ea-94c9-e56576f76baf.png" width=150px>
   </li>
 
- <li>Vim
-
+ <li>
+  Vim
+  <br>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/1200px-Vimlogo.svg.png" width=180px>
 </li>
 
