@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Introducing</title>
+    <style>
+        .img01{            
+            border-style: solid;        
+            width: 200px;
+            margin-right: 50px;
+        }
+        img:not(.img01){
+            width: 50px;
+            height: 40px;
+            margin-left: 10px;
+        }
+        .container{
+            display: grid;
+            margin-top: 30px;
+            grid-template-columns: 200px 1fr;
+        }
+        li{
+          margin:10px;  
+        }
+    </style>
+</head>
+<body>
+    <div style="height:150px;background-color: lightblue;">
+        <h1 style="padding-top: 50px; text-align: center;">About Me</h1>
+    </div>
+
+    <div class="container">
+        <img class="img01" src="https://file.mk.co.kr/meet/neds/2014/08/image_readtop_2014_1109955_14084075771486942.jpg">
+
+        <div>
+            <ul>
+                <li>
+                    이름 : 권해솔
+                </li>
+                <li>
+                    학번 : 2017116948
+                </li>
+                <li>
+                    학과 : 글로벌 소프트웨어 융합과
+                </li>
+                <li>
+                    취미↓<br> 
+                    게임(롤) <img src="https://i.pinimg.com/originals/30/0e/58/300e58c8416a68dcfcf1761501348243.jpg" ><br>
+                    기타 <img src="data:image/png;base64,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"><br>
+                    그림 그리기 <img src="https://w7.pngwing.com/pngs/527/143/png-transparent-computer-icons-writing-drawing-writing-icon-orange-logo-desktop-wallpaper.png"><br>
+                    배드민턴 <img src="https://i.pinimg.com/736x/29/b3/d7/29b3d74484665ac8ffb6fdcd26d7a55c.jpg">
+                </li>
+    
+                <li style="margin-top: 10px;">
+                    장범준과 기타를 좋아하는 미래 개발자입니다.<br>
+                    다양한 개발 공부를 하고 있고 행복한 삶이 꿈입니다.
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
