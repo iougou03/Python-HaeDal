@@ -30,6 +30,7 @@ with open('rank_webToon.csv','w',newline='') as c:
     cp = csv.writer(c)
     for k, v in ranking.items():
         n=0
+        cp.writerow(['요일','순위','제목'])
         for vv in v:
            n+=1 
            cp.writerow([k,n,vv])
