@@ -16,8 +16,9 @@ ranking = {}
 for data in datas:
     date = data.h4['class'][0]
     if date not in ranking:
-        ranking[date] = []
-    for toon in data.ul.findChildren("li",recursive=False):
+        ranking[date] = [] 
+    #we should find bs4.tag type
+    for toon in data.ul.findChildren("li",recursive=False): 
         ranking[date].append(toon.a.img['title'])
 
 topN = 5
@@ -30,7 +31,6 @@ with open('rank_webToon.csv','w',newline='') as c:
     cp = csv.writer(c)
     for k, v in ranking.items():
         n=0
-        cp.writerow(['요일','순위','제목'])
         for vv in v:
            n+=1 
            cp.writerow([k,n,vv])
