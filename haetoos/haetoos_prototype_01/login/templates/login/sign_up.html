@@ -1,0 +1,16 @@
+<form action="{% url 'login:result'  %}" method="post">
+{% csrf_token %}
+    <label for="name">이름 - </label>
+    <input type="text" name="name" id="name" placeholder="이름">
+    <br><br>
+    <label for="student_id">학번 - </label>
+    <input type="number" name="student_id" id="student_id" placeholder="학번">
+    <br><br>
+    <label for="haetoos_id">ID - </label>
+    <input type="text" name="haetoos_id" id="haetoos_id" placeholder="id">
+    <br><br>
+    <label for="haetoos_ps">PS - </label>
+    <input type="password" name="haetoos_ps" id="haetoos_ps" placeholder="ps">
+    <br>
+    <input type="submit" value="sign up!">  
+</form>
