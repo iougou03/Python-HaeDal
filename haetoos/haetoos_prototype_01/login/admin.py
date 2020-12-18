@@ -1,11 +1,12 @@
 from django.contrib import admin
 #사용한 admin theme : https://github.com/sehmaschine/django-grappelli
+from .models import HaedalMember
+from django.contrib.auth.models import User,Group
 
 # Register your models here.
-from .models import Haetoos_member
+class HaedalMemberAdmin(admin.ModelAdmin):
+    fields = ['name','student_id','haetoos_id','phone_number','email',]
 
-class Haetoos_memberAdmin(admin.ModelAdmin):
-    readonly_fields=('haetoos_id','haetoos_ps',)
-    fields = ['name','student_id','haetoos_id','haetoos_ps',]
-    
-admin.site.register(Haetoos_member,Haetoos_memberAdmin)
+admin.site.register(HaedalMember,HaedalMemberAdmin)
+admin.site.unregister(User)
+admin.site.unregister(Group)

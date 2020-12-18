@@ -15,9 +15,20 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
+from django.conf.urls.static import static
+
+from . import settings
 
 urlpatterns = [
     path('grappelli/', include('grappelli.urls')), # grappelli URLS
-    path('admin/', admin.site.urls),
+    path('grappelli-docs/', include('grappelli.urls_docs')), # grappelli docs URLS
+    path('admin/', admin.site.urls, name = 'admin'),
     path('',include('login.urls')),
+    path('summernote/', include('django_summernote.urls')),
+    
+    path('lecture/',include('lecture.urls')),
 ]
+
+#when DEBUG is true
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
